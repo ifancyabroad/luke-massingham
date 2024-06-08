@@ -1,0 +1,8 @@
+<svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="usymrs2uta" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="56">
+        <path transform="rotate(-180 55.01 55.682)" fill="#fff" d="M55.009 55.682h54.949v55.58H55.009z"/>
+    </mask>
+    <g mask="url(#usymrs2uta)">
+        <path d="M14.942 12.838.061 27.89l14.881 15.053 1.62-1.638L4.442 29.05H55.01v-2.316H4.443l12.118-12.258-1.619-1.637z" fill="#383838"/>
+    </g>
+</svg>
