@@ -28,13 +28,13 @@ export default function Projects() {
 
     const handleNext = () => {
         if (ref.current) {
-            ref.current.next();
+            ref.current.next(0);
         }
     };
 
     const handlePrev = () => {
         if (ref.current) {
-            ref.current.previous();
+            ref.current.previous(0);
         }
     };
 
