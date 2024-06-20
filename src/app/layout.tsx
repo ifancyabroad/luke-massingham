@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${rebondGrotesque.className} text-[#383838]`}>{children}</body>
+			<body className={`${rebondGrotesque.className} text-[#383838] bg-[#f9f9f9]`}>{children}</body>
 		</html>
 	);
 }

@@ -6,12 +6,13 @@ export default function Home() {
 	
 
 	return (
-		<main className="min-h-screen">
+		<main className="min-h-screen bg-drawing bg-[right_45%] bg-no-repeat">
 			<Header />
 
 			<section>
-				<div className="container mx-auto">
-					<div className="bg-white px-4 py-8 md:p-16 md:-mt-16 md:w-9/12 md:rounded-lg">
+				<div className="container mx-auto relative z-[1]">
+					<div className="absolute h-[64px] top-0 left-0 bg-[#f9f9f9] hidden md:block w-9/12 rounded-t-lg" />
+					<div className="px-4 py-8 md:p-16 md:-mt-16 md:w-9/12">
 						<h1 className="text-2xl md:text-4xl mb-6">
 							We are a design led Architecture practice based in Brisbane undertaking a broad range of quality residential projects.  Our work is driven by the principles of deep listening, understanding place, and landscape.
 						</h1>

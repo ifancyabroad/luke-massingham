@@ -15,14 +15,17 @@ export default function Projects() {
 		desktop: {
 			breakpoint: { max: 3000, min: 1024 },
 			items: 3,
+            partialVisibilityGutter: 40
 		},
 		tablet: {
 			breakpoint: { max: 1024, min: 464 },
 			items: 2,
+            partialVisibilityGutter: 30
 		},
 		mobile: {
 			breakpoint: { max: 464, min: 0 },
 			items: 1,
+            partialVisibilityGutter: 30
 		}
 	};
 
@@ -56,10 +59,13 @@ export default function Projects() {
                 responsive={responsive}
                 infinite
                 arrows={false}
+                partialVisible
             >
                 {PROJECTS.map((project) => (
                     <div key={project.title} className="mr-4">
-                        <div className="bg-slate-400 rounded-[4px] min-h-[572px] mb-4" />
+                        <div className="m-h-[572px] mb-4">
+                            <Image className="rounded-[4px]" src={project.src} alt={project.title} placeholder="blur"  />
+                        </div>
                         <h3 className="text-xl tracking-widest font-semibold mb-2">{project.title}</h3>
                         <p className="font-light">{project.description}</p>
                     </div>
