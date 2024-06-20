@@ -14,7 +14,7 @@ export default function Footer() {
 
                     <p>BRISBANE, AUSTRALIA</p>
                     <p className="mb-4">MEANJIN, TRADITIONAL LANDS OF THE TURRBAL AND JAGERA PEOPLE</p>
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/lukemassinghamarchitect/" target="_blank">
                         <Image src={instagram} alt="instagram" />
                     </a>
                 </div>
