@@ -11,7 +11,7 @@ export default function Header() {
 					<Image src={logo} alt="logo" className="max-w-[50%]" />
 
                     <div className="flex items-center gap-2 md:gap-6">
-                        <a href="mailto:luke@lmaarchitects.com.au" className="text-xs md:text-sm font-semibold tracking-widest text-white link-underline">LET&apos;S TALK</a>
+                        <a href="mailto:lukemassinghamarchitect.com.au" className="text-xs md:text-sm font-semibold tracking-widest text-white link-underline">LET&apos;S TALK</a>
 						<a href="https://www.instagram.com/lukemassinghamarchitect/" target="_blank">
 							<Image src={instagram} alt="instagram" />
 						</a>

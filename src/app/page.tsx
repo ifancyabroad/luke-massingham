@@ -20,7 +20,7 @@ export default function Home() {
 							We believe that good design stems from a deep understanding of place and of our clients values. Our approach begins with an innovative briefing process and interrogation of the site’s opportunities and history. Our buildings respond to the climate we live in, offering a close connection to the natural world around us. We value a close connection to the process of making and foster close relationships with trades people and builders.
 						</p>
 						<p className="text-xl">
-							Contact me here <a href="mailto:luke@lmaarchitects.com.au" className="underline font-medium">luke@lmaarchitects.com.au</a>
+							Contact me here <a href="mailto:studio@lukemassinghamarchitect.com.au" className="underline font-medium">studio@lukemassinghamarchitect.com.au</a>
 						</p>
 					</div>
 				</div>

@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="flex flex-col items-center">
                     <p className="mb-8">LET&apos;S CHAT</p>
                     <Image className="mb-8" src={logo} alt="logo" />
-                    <a className="mb-2" href="mailto:luke@lmaarchitects.com.au">LUKE@LMAARCHITECTS.COM.AU</a>
+                    <a className="mb-2" href="mailto:studio@lukemassinghamarchitect.com.au">STUDIO@LUKEMASSINGHAMARCHITECT.COM.AU</a>
                     <a className="mb-5" href="tel:+61429423885">+61 429 423 885</a>
 
                     <p>BRISBANE, AUSTRALIA</p>
